@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, EventEmitter, OnInit, Output} from '@angular/core';
 
 @Component({
   selector: 'app-image-input',
@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./image-input.component.css']
 })
 export class ImageInputComponent implements OnInit {
-
-  constructor() { }
+  mensaje:string;
+  @Output()
+  propagar = new EventEmitter<string>();
+  constructor() {
+    this.mensaje="hola puiiiiiiiiii";
+  }
 
   ngOnInit() {
+  }
+  onPropagar() {
+    this.propagar.emit(this.mensaje);
   }
 
 }

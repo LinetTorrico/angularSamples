@@ -11,5 +11,7 @@ export class GridviewComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  procesaPropagar(mensaje) {
+    console.log(mensaje);
+  }
 }
