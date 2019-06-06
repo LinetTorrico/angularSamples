@@ -3,10 +3,20 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ContainerComponent } from './container/container.component';
+import { LeftMenuComponent } from './left-menu/left-menu.component';
+import { HeaderComponent } from './header/header.component';
+import { GridviewComponent } from './gridview/gridview.component';
+import { ImageInputComponent } from './image-input/image-input.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ContainerComponent,
+    LeftMenuComponent,
+    HeaderComponent,
+    GridviewComponent,
+    ImageInputComponent
   ],
   imports: [
     BrowserModule,
