@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./left-menu.component.css']
 })
 export class LeftMenuComponent implements OnInit {
-
+   isSaved=true;
+   fill=true;
   constructor() { }
 
   ngOnInit() {

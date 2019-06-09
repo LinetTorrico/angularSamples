@@ -45,10 +45,18 @@
 }
 .progressbar li.active {
   color: green;
+  background-color: #1f1cb7;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
 .progressbar li.active:before {
   border-color: #55b776;
+  background-color: #1f1cb7;
 }
 .progressbar li.active + li:after {
-  background-color: #55b776;
+  background-color: #1f1cb7;
+}
+.saved-form {
+
 }
