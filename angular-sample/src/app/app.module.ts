@@ -8,6 +8,7 @@ import { LeftMenuComponent } from './left-menu/left-menu.component';
 import { HeaderComponent } from './header/header.component';
 import { GridviewComponent } from './gridview/gridview.component';
 import { ImageInputComponent } from './image-input/image-input.component';
+import { WizardComponent } from './wizard/wizard.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ImageInputComponent } from './image-input/image-input.component';
     LeftMenuComponent,
     HeaderComponent,
     GridviewComponent,
-    ImageInputComponent
+    ImageInputComponent,
+    WizardComponent
   ],
   imports: [
     BrowserModule,
