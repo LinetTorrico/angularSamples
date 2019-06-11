@@ -1,6 +1,6 @@
 <div class="container">
-  <ul class="nav nav-tabs" [ngClass]="{'progressbar': isSaved}" >
-    <li [ngClass]="{'active': fill}">
+  <ul class="nav nav-tabs"  [ngClass]="{'progressbar': isCaseAccepted, 'noAccepted':noCaseAccepted }">
+    <li>
       <a routerLink="caselist"  ui-sref="caselist" aria-controls="case_list"
          role="tab" class="hvr-underline-from-center">
         <div>Case List</div>
