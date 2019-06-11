@@ -1,25 +1,29 @@
-<div class="container">
-  <ul class="nav nav-tabs"  [ngClass]="{'progressbar': isCaseAccepted, 'noAccepted':noCaseAccepted }">
+<div id="step-indicator"  class="container step-indicator">
+  <ul  class="nav nav-tabs">
     <li>
       <a routerLink="caselist"  ui-sref="caselist" aria-controls="case_list"
          role="tab" class="hvr-underline-from-center">
         <div>Case List</div>
       </a></li>
-    <li><a routerLink="imagList"  ui-sref="caselist" aria-controls="case_list"
+    <li ><a routerLink="imagList"  ui-sref="caselist" aria-controls="case_list"
            role="tab" class="hvr-underline-from-center">
       <div>Summary</div>
     </a></li>
     <li><a routerLink="imagList"  ui-sref="caselist" aria-controls="case_list"
            role="tab" class="hvr-underline-from-center">
-      <div>Summary</div>
+      <div>Screening</div>
     </a></li>
     <li><a routerLink="imagList"  ui-sref="caselist" aria-controls="case_list"
            role="tab" class="hvr-underline-from-center">
-      <div>Summary</div>
+      <div>Web Research</div>
+    </a></li>
+    <li><a routerLink="imagList"  ui-sref="caselist" aria-controls="case_list"
+           role="tab" class="hvr-underline-from-center">
+      <div>Application Review</div>
     </a> </li>
     <li><a routerLink="imagList"  ui-sref="caselist" aria-controls="case_list"
            role="tab" class="hvr-underline-from-center">
-      <div>Summary</div>
+      <div>Resolutions</div>
     </a></li>
   </ul>
 </div>
