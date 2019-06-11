@@ -1,4 +1,18 @@
 
+@mixin color-invertido {
+  width: 20px;
+  height: 20px;
+  content: close-quote;
+  counter-increment: none;
+
+  line-height: 30px;
+  border: 2px solid #7d7d7d;
+  display: block;
+  text-align: center;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+}
+
 .container {
   width: 100%;
   margin: auto auto auto auto;
@@ -35,34 +49,9 @@
 }
 
 .noAccepted li:first-child:before {
-
   background-color: white !important;
-  width: 20px;
-  height: 20px;
-  content: close-quote;
-  counter-increment: none;
+  @include color-invertido;
 
-  line-height: 30px;
-  border: 2px solid #7d7d7d;
-  display: block;
-  text-align: center;
-  margin: 0 auto 10px auto;
-  border-radius: 50%;
-
-}
-
-@mixin color-invertido {
-  width: 20px;
-  height: 20px;
-  content: close-quote;
-  counter-increment: none;
-
-  line-height: 30px;
-  border: 2px solid #7d7d7d;
-  display: block;
-  text-align: center;
-  margin: 0 auto 10px auto;
-  border-radius: 50%;
 }
 
 .noAccepted li:nth-child(2):before {
@@ -87,4 +76,65 @@
 .noAccepted li:nth-child(6):before {
   @include color-invertido;
   background-color: white !important;
+}
+//acepted
+
+.caseAccepted {
+  counter-reset: step;
+}
+
+.caseAccepted li {
+  list-style-type: none;
+  width: 16%;
+  float: left;
+  font-size: 12px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  color: #7d7d7d;
+}
+
+.caseAccepted li:after {
+  width: 100%;
+  height: 2px;
+  content: '';
+  position: absolute;
+  background-color: #7d7d7d;
+  top: 15px;
+  left: -50%;
+  z-index: -1;
+}
+
+.caseAccepted li:first-child:after {
+  content: none;
+}
+
+.caseAccepted li:first-child:before {
+  background-color: white !important;
+  @include color-invertido;
+
+}
+
+.caseAccepted li:nth-child(2):before {
+  @include color-invertido;
+  background-color: #4cffff !important;
+}
+
+.caseAccepted li:nth-child(3):before {
+  @include color-invertido;
+  background-color: #4cffff !important;
+}
+
+.caseAccepted li:nth-child(4):before {
+  @include color-invertido;
+  background-color: #4cffff !important;
+}
+
+.caseAccepted li:nth-child(5):before {
+  @include color-invertido;
+  background-color: gray !important;
+}
+.caseAccepted li:nth-child(6):before {
+  @include color-invertido;
+  background-color: #4cffff !important;
 }

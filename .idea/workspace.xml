@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed66f16-10cd-4ca3-ba68-1f6d7b88780e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-sample/src/app/container/container.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-sample/src/app/container/container.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="3" />
+            <state relative-caret-position="222">
+              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -60,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+            <state relative-caret-position="17">
+              <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
@@ -141,10 +138,10 @@
         <option value="$PROJECT_DIR$/angular-sample/src/app/image-input/image-input.component.html" />
         <option value="$PROJECT_DIR$/angular-sample/src/app/shared.service.ts" />
         <option value="$PROJECT_DIR$/angular-sample/src/app/container/container.component.html" />
-        <option value="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts" />
         <option value="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.css" />
         <option value="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.html" />
         <option value="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss" />
+        <option value="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts" />
       </list>
     </option>
   </component>
@@ -244,12 +241,12 @@
       <workItem from="1559877989503" duration="855000" />
       <workItem from="1560040010797" duration="10530000" />
       <workItem from="1560216400390" duration="115000" />
-      <workItem from="1560218862836" duration="11428000" />
+      <workItem from="1560218862836" duration="12178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30446000" />
+    <option name="totallyTimeSpent" value="31196000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -432,13 +429,6 @@
     <entry file="file://$PROJECT_DIR$/angular-sample/src/app/container/container.component.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="16" selection-start-line="16" selection-end-line="21" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -448,8 +438,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        <state relative-caret-position="17">
+          <caret line="107" lean-forward="true" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>

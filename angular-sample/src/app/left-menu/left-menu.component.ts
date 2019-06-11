@@ -7,7 +7,9 @@ declare var $: any;
 })
 export class LeftMenuComponent implements OnInit {
    isCaseAccepted=false;
-   noCaseAccepted=true;
+   noCaseAccepted=false;
+  screeningCompleted=true;
+  appReviewCompleted=true;
    fill=true;
   constructor() { }
 
@@ -16,6 +18,8 @@ export class LeftMenuComponent implements OnInit {
       console.log("ingreo");
       //$('#step-indicator').addClass('progressbar');
       this.addClass('step-indicator', 'noAccepted' )
+    }else if(!this.noCaseAccepted && this.screeningCompleted && this.appReviewCompleted){
+      this.addClass('step-indicator', 'caseAccepted' )
     }else{
       $('#step-indicator').removeClass('noAccepted');
     }
