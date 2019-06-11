@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aed66f16-10cd-4ca3-ba68-1f6d7b88780e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+            <state relative-caret-position="154">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -241,12 +241,12 @@
       <workItem from="1559877989503" duration="855000" />
       <workItem from="1560040010797" duration="10530000" />
       <workItem from="1560216400390" duration="115000" />
-      <workItem from="1560218862836" duration="12178000" />
+      <workItem from="1560218862836" duration="12326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31196000" />
+    <option name="totallyTimeSpent" value="31344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -445,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/angular-sample/src/app/left-menu/left-menu.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="154">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
